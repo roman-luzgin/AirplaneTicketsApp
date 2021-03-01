@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  dribbleApp
+
+  Created by Roman Luzgin on 01.03.21.
+  
+*/
+
+"hello_world" = "Хэллоу Ворлд";
+
+"best_days" = "Найди Лучшие Дни Для Полета";

@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct dribbleAppApp: App {
+struct AirTicketAppDribble: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

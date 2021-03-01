@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/shelkford/Documents/Projects/dribbleApp/AirTicketAppDribble.xcodeproj">
    </FileRef>
 </Workspace>
