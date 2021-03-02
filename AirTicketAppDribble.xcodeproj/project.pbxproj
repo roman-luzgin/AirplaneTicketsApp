@@ -138,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				C57E5F8E25ECE4FA00C9FBF1 /* Localizable.strings */,
-				C58DD85A25EC3E3600C363EF /* dribbleApp */,
+				C58DD85A25EC3E3600C363EF /* AirTicketsApp */,
 				C58DD85925EC3E3600C363EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C58DD85A25EC3E3600C363EF /* dribbleApp */ = {
+		C58DD85A25EC3E3600C363EF /* AirTicketsApp */ = {
 			isa = PBXGroup;
 			children = (
 				C58DD85B25EC3E3600C363EF /* AirTicketApp.swift */,
@@ -163,7 +163,7 @@
 				C58DD86125EC3E3800C363EF /* Preview Content */,
 				C57E5F5125EC441600C9FBF1 /* Fonts */,
 			);
-			path = dribbleApp;
+			path = AirTicketsApp;
 			sourceTree = "<group>";
 		};
 		C58DD86125EC3E3800C363EF /* Preview Content */ = {
@@ -430,10 +430,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"dribbleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AirTicketsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4T7X5D3BA4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = dribbleApp/Info.plist;
+				INFOPLIST_FILE = AirTicketsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,10 +452,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"dribbleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AirTicketsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4T7X5D3BA4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = dribbleApp/Info.plist;
+				INFOPLIST_FILE = AirTicketsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
