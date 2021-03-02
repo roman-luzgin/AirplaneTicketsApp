@@ -41,7 +41,7 @@ struct FlightsView: View {
                             HStack {
                                 TextField("From", text: $from)
                                     .font(.custom("Montserrat-Medium", size: 16))
-                                    .foregroundColor(.gray)
+                                    .foregroundColor(Color.black.opacity(0.8))
                                 Spacer()
                             }
                         }
@@ -57,7 +57,7 @@ struct FlightsView: View {
                             HStack {
                                 TextField("To", text: $to)
                                     .font(.custom("Montserrat-Medium", size: 16))
-                                    .foregroundColor(.gray)
+                                    .foregroundColor(Color.black.opacity(0.8))
                                 Spacer()
                             }
                         }
@@ -120,9 +120,12 @@ struct FlightsView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color(hex: "F2F2F2").edgesIgnoringSafeArea(.all))
             .navigationBarItems(leading: Text("Hi \(userName)!")
+                                    .font(.custom("Montserrat-Semibold", size: 16))
+                                    .foregroundColor(.black)
                                     .padding(.leading, 15),
                                 trailing: Image(systemName: "lineweight")
                                     .font(Font.title2)
+                                    .foregroundColor(.black)
                                     .padding(.trailing, 15)
                                     .onTapGesture {
                                         menuOpened.toggle()
@@ -141,5 +144,7 @@ struct FlightsView: View {
 struct FlightsView_Previews: PreviewProvider {
     static var previews: some View {
         FlightsView()
+            
+            
     }
 }

@@ -41,6 +41,7 @@
 		C58DD86325EC3E3800C363EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58DD86225EC3E3800C363EF /* Preview Assets.xcassets */; };
 		C58DD86C25EC3E5200C363EF /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58DD86B25EC3E5200C363EF /* GetStartedView.swift */; };
 		C58DD87825EC41DF00C363EF /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58DD87725EC41DF00C363EF /* ColorExtension.swift */; };
+		C5A7095025EE5D3C006893C8 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A7094F25EE5D3C006893C8 /* Gesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		C58DD86425EC3E3800C363EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C58DD86B25EC3E5200C363EF /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
 		C58DD87725EC41DF00C363EF /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		C5A7094F25EE5D3C006893C8 /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				C57E5F9C25ED368000C9FBF1 /* AeroportsMapping.swift */,
 				C57E5F7C25EC4A7700C9FBF1 /* ViewModifier.swift */,
 				C58DD87725EC41DF00C363EF /* ColorExtension.swift */,
+				C5A7094F25EE5D3C006893C8 /* Gesture.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -135,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				C57E5F8E25ECE4FA00C9FBF1 /* Localizable.strings */,
-				C58DD85A25EC3E3600C363EF /* AirTicketsApp */,
+				C58DD85A25EC3E3600C363EF /* dribbleApp */,
 				C58DD85925EC3E3600C363EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -148,7 +151,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C58DD85A25EC3E3600C363EF /* AirTicketsApp */ = {
+		C58DD85A25EC3E3600C363EF /* dribbleApp */ = {
 			isa = PBXGroup;
 			children = (
 				C58DD85B25EC3E3600C363EF /* AirTicketApp.swift */,
@@ -160,7 +163,7 @@
 				C58DD86125EC3E3800C363EF /* Preview Content */,
 				C57E5F5125EC441600C9FBF1 /* Fonts */,
 			);
-			path = AirTicketsApp;
+			path = dribbleApp;
 			sourceTree = "<group>";
 		};
 		C58DD86125EC3E3800C363EF /* Preview Content */ = {
@@ -279,6 +282,7 @@
 				C58DD85E25EC3E3600C363EF /* ContentView.swift in Sources */,
 				C57E5F8625EC545800C9FBF1 /* FlightDetails.swift in Sources */,
 				C58DD86C25EC3E5200C363EF /* GetStartedView.swift in Sources */,
+				C5A7095025EE5D3C006893C8 /* Gesture.swift in Sources */,
 				C58DD87825EC41DF00C363EF /* ColorExtension.swift in Sources */,
 				C57E5F9A25ED04D100C9FBF1 /* Menu.swift in Sources */,
 				C57E5F7A25EC476300C9FBF1 /* FlightsView.swift in Sources */,
@@ -355,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = "iOS 14";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = "iOS 14";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,10 +439,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shelkford.dribbleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.dribbleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,10 +461,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shelkford.dribbleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.custom.dribbleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
