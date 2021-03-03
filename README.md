@@ -21,4 +21,4 @@ Twitter: [@shelkford](https://twitter.com/shelkford)
 [My app Wellwork on the App Store](https://apps.apple.com/us/app/wellwork-mindful-productivity/id1537640654)
 
 ## Acknowledgements
-Design inspired by [Shakuro (dribbble)]https://dribbble.com/shakuro
+Design by [Shakuro (dribbble)](https://dribbble.com/shakuro) from dribbble
