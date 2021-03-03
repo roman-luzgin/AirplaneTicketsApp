@@ -1,5 +1,5 @@
 # AirplaneTicketsApp - Recreation in SwiftUI
-Recreation of the Airplane Ticket App from Dribble: https://dribbble.com/shots/15197550-Air-Ticket-App/attachments/6941091?mode=media
+SwiftUI recreation of the Airplane Ticket App from Dribbble: https://dribbble.com/shots/15197550-Air-Ticket-App/attachments/6941091?mode=media
 
 <img width="769" alt="image" src="https://user-images.githubusercontent.com/65537510/109575561-587a0c80-7af2-11eb-984c-d51d55915a81.png">
 
@@ -19,3 +19,6 @@ Localizable.string files for English and Russian (both empty except for 1 string
 Twitter: [@shelkford](https://twitter.com/shelkford)
 
 [My app Wellwork on the App Store](https://apps.apple.com/us/app/wellwork-mindful-productivity/id1537640654)
+
+## Acknowledgements
+Design inspired by [Shakuro (dribbble)]https://dribbble.com/shakuro
